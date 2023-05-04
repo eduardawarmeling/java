@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo java</title>
+</head>
+<body>
+    Digite seu nome:
+    <input type="text" id="nome">
+    <button class="BT" onclick="Confirmar();"> 
+        <img src="confirmarr.png" width="20px">
+        <br>
+        Ok
+    </button>
+    <button class="BT" onclick="MostrarJanela();">
+        <img src="sla.png" width="20px">
+        <br> 
+        Cadastrar
+    </button>
+    <button class="BT" onclick="Somar();"> 
+        <img src="soma.png" width="20px">
+        <br>
+        Mais 1 
+    </button>
+
+    <br>
+    Resultado:<input type="text" id="resultado">
+
+    <div id="resposta">
+        Você digitou: <span id="teste"> </span>
+    </div>
+
+    <div class="janelinha" id="janelinha">
+        Esse texto esta dentro da div janelinha.
+        <br>
+        <img onclick="Fechar();" src= "fechar.png" width="30px">
+    </div>
+
+    <div class="D1"> Esse é o texto 1</div>
+    <div class="D2"> Esse é o texto 2</div>
+    <div class="D3"> Esse é o texto 3</div>
+
+    <br> <br>
+
+    <button class="BT" onclick="Imprimir();"> 
+        <img src="imprimi.png" width="50px"> 
+        <br>
+        Imprimir
+    </button>
+    
+   
+
+</body>
+<script src="script.js"> </script>
+</html>
